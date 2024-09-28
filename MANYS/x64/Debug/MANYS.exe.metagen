@@ -19,5 +19,6 @@ Class MANYS.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     System.Drawing.Graphics g : Public
-    TSet* A : Public
-    TSet* B : Public
+  Methods:
+    StrToNum(String, vector<int\,std::allocator<int> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    StdStringToUTF16(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
