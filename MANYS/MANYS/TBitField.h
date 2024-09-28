@@ -79,7 +79,7 @@ public:
 
 					if (mem[i] & (1 << j))
 					{
-						str = str + " " + std::to_string(i * sizeof(unsigned _int32) * 8 + j + 1);
+						str = str + "  " + std::to_string(i * sizeof(unsigned _int32) * 8 + j + 1);
 						//cout << i << endl;
 					}
 				}
