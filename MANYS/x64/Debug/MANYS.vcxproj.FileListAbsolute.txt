@@ -1,0 +1,4 @@
+C:\Users\Vova\source\repos\MANYS\MANYS\x64\Debug\MANYS.vcxproj.AssemblyReference.cache
+C:\Users\Vova\source\repos\MANYS\MANYS\x64\Debug\MANYS.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\Vova\source\repos\MANYS\MANYS\x64\Debug\MANYS.MyForm.resources
+C:\Users\Vova\source\repos\MANYS\MANYS\x64\Debug\MANYS.vcxproj.GenerateResource.cache
