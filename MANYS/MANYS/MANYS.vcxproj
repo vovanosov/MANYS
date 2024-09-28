@@ -104,7 +104,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
-      <SubSystem>NotSet</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
