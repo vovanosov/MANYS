@@ -20,5 +20,5 @@ Class MANYS.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Fields:
     System.Drawing.Graphics g : Public
   Methods:
-    StrToNum(String, vector<int\,std::allocator<int> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    StrToNum(String, vector<unsigned int\,std::allocator<unsigned int> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
     StdStringToUTF16(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig

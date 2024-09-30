@@ -38,13 +38,13 @@ namespace MANYS {
 	private: System::Windows::Forms::Button^ NOTB;
 	public:
 		
-		void StrToNum(String^ str, std::vector <int>& num) {
+		void StrToNum(String^ str, std::vector <unsigned _int32>& num) {
 			int k = 0, i = 0, st, sz, ch = 0;
 			str += " ";
 			while (i < str->Length) {
-				if (str[i] != ' ') {
+				if (str[i] >= '0' && str[i] <= '9') {
 					st = i;
-					while (str[i] != ' ') {
+					while (str[i] >= '0' && str[i] <= '9') {
 						i++;
 					}
 					sz = i - st;
@@ -261,7 +261,7 @@ namespace MANYS {
 		for (int i = 0; i < sz->Length; i++)
 			numsz += (sz[sz->Length - 1 - i] - '0') * pow(10, i);
 
-		std::vector<int> nA, nB;
+		std::vector<unsigned _int32> nA, nB;
 		StrToNum(sA, nA);
 		StrToNum(sB, nB);
 
@@ -289,7 +289,7 @@ namespace MANYS {
 		for (int i = 0; i < sz->Length; i++)
 			numsz += (sz[sz->Length - 1 - i] - '0') * pow(10, i);
 
-		std::vector<int> nA, nB;
+		std::vector<unsigned _int32> nA, nB;
 		StrToNum(sA, nA);
 		StrToNum(sB, nB);
 
@@ -316,7 +316,7 @@ namespace MANYS {
 		for (int i = 0; i < sz->Length; i++)
 			numsz += (sz[sz->Length - 1 - i] - '0') * pow(10, i);
 
-		std::vector<int> nA, nB;
+		std::vector<unsigned _int32> nA, nB;
 		StrToNum(sA, nA);
 		StrToNum(sB, nB);
 
@@ -343,7 +343,7 @@ namespace MANYS {
 		for (int i = 0; i < sz->Length; i++)
 			numsz += (sz[sz->Length - 1 - i] - '0') * pow(10, i);
 
-		std::vector<int> nA, nB;
+		std::vector<unsigned _int32> nA, nB;
 		StrToNum(sA, nA);
 		StrToNum(sB, nB);
 
