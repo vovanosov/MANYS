@@ -276,6 +276,8 @@ namespace MANYS {
 
 		C = A & B;
 		this->RESULT->Text = StdStringToUTF16(C.TSetToString());
+		this->textBox1->Text = StdStringToUTF16(A.TSetToString());
+		this->textBox2->Text = StdStringToUTF16(B.TSetToString());
 	}
 
 	private: System::Void OR_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -304,6 +306,8 @@ namespace MANYS {
 
 		C = A | B;
 		this->RESULT->Text = StdStringToUTF16(C.TSetToString());
+		this->textBox1->Text = StdStringToUTF16(A.TSetToString());
+		this->textBox2->Text = StdStringToUTF16(B.TSetToString());
 	}
 	private: System::Void NOTA_Click(System::Object^ sender, System::EventArgs^ e) {
 		TSet A, B;
@@ -331,6 +335,8 @@ namespace MANYS {
 
 		C = ~A;
 		this->RESULT->Text = StdStringToUTF16(C.TSetToString());
+		this->textBox1->Text = StdStringToUTF16(A.TSetToString());
+		this->textBox2->Text = StdStringToUTF16(B.TSetToString());
 	}
 	private: System::Void NOTB_Click(System::Object^ sender, System::EventArgs^ e) {
 		TSet A, B;
@@ -358,6 +364,8 @@ namespace MANYS {
 
 		C = ~B;
 		this->RESULT->Text = StdStringToUTF16(C.TSetToString());
+		this->textBox1->Text = StdStringToUTF16(A.TSetToString());
+		this->textBox2->Text = StdStringToUTF16(B.TSetToString());
 	}
 };
 }
