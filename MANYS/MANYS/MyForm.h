@@ -37,7 +37,8 @@ namespace MANYS {
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::Button^ NOTB;
 	public:
-		
+		TSet* A;
+		TSet* B;
 		void StrToNum(String^ str, std::vector <unsigned _int32>& num) {
 			int k = 0, i = 0, st, sz, ch = 0;
 			str += " ";
@@ -251,7 +252,7 @@ namespace MANYS {
 	private: System::Void RESULT_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 	private: System::Void AND_Click(System::Object^ sender, System::EventArgs^ e) {
-		TSet A, B;
+		//TSet A, B;
 		String^ sz = this->SIZE->Text;
 
 		String^ sA = this->textBox1->Text;
@@ -266,18 +267,18 @@ namespace MANYS {
 		StrToNum(sB, nB);
 
 		TSet C(numsz);
-		A = C;
-		B = C;
+		A = new TSet(C);
+		B = new TSet(C);
 
 		for (int i = 0; i < nA.size(); i++)
-			A.Add(nA[i]);
+			A->Add(nA[i]);
 		for (int i = 0; i < nB.size(); i++)
-			B.Add(nB[i]);
+			B->Add(nB[i]);
 
-		C = A & B;
+		C = (*A) & (*B);
 		this->RESULT->Text = StdStringToUTF16(C.TSetToString());
-		this->textBox1->Text = StdStringToUTF16(A.TSetToString());
-		this->textBox2->Text = StdStringToUTF16(B.TSetToString());
+		this->textBox1->Text = StdStringToUTF16(A->TSetToString());
+		this->textBox2->Text = StdStringToUTF16(B->TSetToString());
 	}
 
 	private: System::Void OR_Click(System::Object^ sender, System::EventArgs^ e) {

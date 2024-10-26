@@ -1,10 +1,10 @@
 ﻿  MyForm.cpp
-C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(53,41): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(63,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(64,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(262,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(292,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(321,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(350,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(54,41): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(64,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(65,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(263,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(293,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(322,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\MANYS\MyForm.h(351,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   MANYS.vcxproj -> C:\Users\Vova\OneDrive\Documents\MANYS\MANYS\x64\Debug\MANYS.exe
